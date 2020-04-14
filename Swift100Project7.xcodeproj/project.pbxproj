@@ -13,6 +13,7 @@
 		ACEE42532445CA650058AD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE42512445CA650058AD40 /* Main.storyboard */; };
 		ACEE42552445CA690058AD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEE42542445CA690058AD40 /* Assets.xcassets */; };
 		ACEE42582445CA690058AD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE42562445CA690058AD40 /* LaunchScreen.storyboard */; };
+		ACEE42602445D9CE0058AD40 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE425F2445D9CE0058AD40 /* Petition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ACEE42542445CA690058AD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEE42572445CA690058AD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEE42592445CA690058AD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEE425F2445D9CE0058AD40 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				ACEE424B2445CA650058AD40 /* AppDelegate.swift */,
 				ACEE424D2445CA650058AD40 /* SceneDelegate.swift */,
+				ACEE425F2445D9CE0058AD40 /* Petition.swift */,
 				ACEE424F2445CA650058AD40 /* ViewController.swift */,
 				ACEE42512445CA650058AD40 /* Main.storyboard */,
 				ACEE42542445CA690058AD40 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEE42502445CA650058AD40 /* ViewController.swift in Sources */,
+				ACEE42602445D9CE0058AD40 /* Petition.swift in Sources */,
 				ACEE424C2445CA650058AD40 /* AppDelegate.swift in Sources */,
 				ACEE424E2445CA650058AD40 /* SceneDelegate.swift in Sources */,
 			);
