@@ -47,6 +47,18 @@ class ViewController: UITableViewController {
         
     }
     
+    if let url = URL(string: urlString) {
+        
+        if let data = try? Data(contentsOf: url) {
+            
+            parse(json: data)
+            return
+            
+        }
+    }
+
+    showError()
+    
     //Setting row number equal to number of items in array petitions
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
