@@ -15,6 +15,7 @@
 		ACEE42582445CA690058AD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEE42562445CA690058AD40 /* LaunchScreen.storyboard */; };
 		ACEE42602445D9CE0058AD40 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE425F2445D9CE0058AD40 /* Petition.swift */; };
 		ACEE42622445E19E0058AD40 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE42612445E19E0058AD40 /* Petitions.swift */; };
+		ACEE426424470BC90058AD40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE426324470BC90058AD40 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ACEE42592445CA690058AD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACEE425F2445D9CE0058AD40 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
 		ACEE42612445E19E0058AD40 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		ACEE426324470BC90058AD40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ACEE425F2445D9CE0058AD40 /* Petition.swift */,
 				ACEE42612445E19E0058AD40 /* Petitions.swift */,
 				ACEE424F2445CA650058AD40 /* ViewController.swift */,
+				ACEE426324470BC90058AD40 /* DetailViewController.swift */,
 				ACEE42512445CA650058AD40 /* Main.storyboard */,
 				ACEE42542445CA690058AD40 /* Assets.xcassets */,
 				ACEE42562445CA690058AD40 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				ACEE42502445CA650058AD40 /* ViewController.swift in Sources */,
 				ACEE42602445D9CE0058AD40 /* Petition.swift in Sources */,
 				ACEE424C2445CA650058AD40 /* AppDelegate.swift in Sources */,
+				ACEE426424470BC90058AD40 /* DetailViewController.swift in Sources */,
 				ACEE424E2445CA650058AD40 /* SceneDelegate.swift in Sources */,
 				ACEE42622445E19E0058AD40 /* Petitions.swift in Sources */,
 			);
